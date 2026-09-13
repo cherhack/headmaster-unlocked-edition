@@ -1,0 +1,23 @@
+    {
+      "payloadId": "pd2403-neo9spp",
+      "displayName": "iQOO Neo9S Pro+ | SM8650 | Kernel 6.1.145",
+      "models": ["PD2403", "PD2403A", "V2403A"],
+      "marketNames": ["V2403A", "iQOO Neo9S Pro+", "iQOO Neo 9S Pro+"],
+      "kernelVersions": ["6.1.145-android14-11"],
+      "exploit": "ghostlock-cve-2026-43499",
+      "enabled": true,
+      "files": {
+        "preload.so": {
+          "url": "https://raw.githubusercontent.com/cherhack/preload-for-iq/main/preload/PD2403.so",
+          "sha256": "ЗАМЕНИ_НА_СВОЙ",
+          "size": 145776,
+          "mirrors": [
+            "https://cdn.jsdelivr.net/gh/cherhack/preload-for-iq@main/preload/PD2403.so"
+          ]
+        }
+      },
+      "offsets": {},
+      "structLayout": "6.1",
+      "verifiedBy": "cherhack custom port (I2407 target.h, same GKI 6.1.145)",
+      "env": {"RMV_ATTEMPTS": "3", "RMV_RETRY_DELAY": "15"}
+    },
